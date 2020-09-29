@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="App_Diabetes_NaiveBayes_C45.jnlp">
+  <information>
+    <title>App_Diabetes_NaiveBayes_C45</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="App_Diabetes_NaiveBayes_C45.jar" size="200576" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="App_Diabetes_NaiveBayes_C45" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="id.ac.unsulbar.ui.GUI_Diabetes"  name="App_Diabetes_NaiveBayes_C45" />
+  <update check="always"/>
+</jnlp>
